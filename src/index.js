@@ -17,11 +17,11 @@ let custStyle = {
 let greeting;
 
 if (currentHour < 12) {
-  custStyle.colour = "green";
+  custStyle.color = "red";
   greeting = "Good Morning";
 } else if (currentHour < 18) {
   greeting = "Good Afternoon";
-  custStyle.color = "red";
+  custStyle.color = "green";
 } else {
   greeting = "Good Evening!";
   custStyle.color = "blue";
